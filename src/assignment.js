@@ -34,11 +34,13 @@ assignment.sumOfNumbers = sumOfNumbers;
 function countEvenNumbers(arrayOfNumbers) {
     let count = 0;
     for(let i = 0; i < arrayOfNumbers.length; i++) {
-      if (a)
+      if (arrayOfNumbers[i] % 2 == 0) {
+        count++;
+      }
     }
-    return arrayOfNumbers.length;
+    return count;
 }
-// assignment.countEvenNumbers = countEvenNumbers;
+assignment.countEvenNumbers = countEvenNumbers;
 
 /**
  * Challenge - 3
